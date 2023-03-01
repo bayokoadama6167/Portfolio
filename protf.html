@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Acceil</a></li>
+            <li><a href="#about">Apropos de Moi</a></li>
+            <li><a href="#portfolio">Mes Projets</a></li>
+            <li><a href="#service">Mes Services</a></li>
+            <li><a href="#contact">Contact Moi</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="Port4">
+            <img src="port4.png" alt="">
+        </div>
+        <div class="main">
+            <h1 class="headings"> Je suis un Développeur Web <br><br> ADAMA BAYOKO</h1>
+            <div class="btn">
+                <a href="CV2.pdf" id="lien"> Télécharger Mon CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">APROPOS DE MOI</h1>
+        <div id="pic">    
+            <img src="port1.png" alt="">
+            <div id="intro">
+                <h2>ADAMA BAYOKO</h2>
+                <p>UI est l'abréviation d'user interface ou interface utilisateur. L'UI design se rapporte donc à l'environnement <br>
+                    graphique dans lequel évolue l'utilisateur d'un logiciel, d'un site web ou d'une application. La mission de <br>
+                    l'UI designer consiste à créer une interface agréable et pratique, facile à prendre en main.L’UI Design <br>
+                    (User Interface Design), est l’étape de conception de l’interface utilisateur.
+                    </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">MES PROJETS</h1>
+        <div class="gallery">
+           <a href="pho1.jpg"> <img src="portofolio/pho1.jpg" alt=""></a>
+           <a href="pho2.png"> <img src="portofolio/pho2.png" alt=""></a>
+           <a href="pho3.png"> <img src="portofolio/pho3.png" alt=""></a>
+           <a href="pho4.jpeg"> <img src="portofolio/pho4.jpeg" alt=""></a>
+           <a href="pho5.jpeg"> <img src="portofolio/pho5.jpeg" alt=""></a>
+           <a href="pho6.jpeg"> <img src="portofolio/pho6.jpeg" alt=""></a>
+        </div>
+    </section>
+
+    <section id="service">
+        <h1 class="headings">MES SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="service/png.png" alt="">
+                <h1 class="headings">Website Desing</h1>
+                <p>UI est l’acronyme anglais de ”User Interface”. L’UI Design désigne 
+                    la conception de l’interface utilisateur pour une application, un 
+                    logiciel ou tout dispositif digital. Le design est le processus 
+                    qui permet de concevoir l’interface homme-machine. Dans sa 
+                    définition, l’UI Design englobe donc tout ce qui s’apparente 
+                    au graphisme, à l’aspect et à l’agencement. On y trouve </p>
+            </div>
+            <div class="box">
+                <img src="service/png.png" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>UI est l’acronyme anglais de ”User Interface”. L’UI Design désigne 
+                    la conception de l’interface utilisateur pour une application, un 
+                    logiciel ou tout dispositif digital. Le design est le processus 
+                    qui permet de concevoir l’interface homme-machine. Dans sa 
+                    définition, l’UI Design englobe donc tout ce qui s’apparente 
+                    au graphisme, à l’aspect et à l’agencement. On y trouve </p>
+            </div>
+            <div class="box">
+                <img src="service/png.png" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>UI est l’acronyme anglais de ”User Interface”. L’UI Design désigne 
+                    la conception de l’interface utilisateur pour une application, un 
+                    logiciel ou tout dispositif digital. Le design est le processus 
+                    qui permet de concevoir l’interface homme-machine. Dans sa 
+                    définition, l’UI Design englobe donc tout ce qui s’apparente 
+                    au graphisme, à l’aspect et à l’agencement. On y trouve </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" >
+        <h1 class="headings">CONTACT MOI</h1>
+        <form action="POST" class="form">
+            <input type="text" name="name" class="input" placeholder="Entrez votre Nom">
+            <input type="email" name="email" class="input" placeholder="Entrez votre Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Entrez votre Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section> 
+    <script src="Java.js"></script>
+</body>
+</html>
