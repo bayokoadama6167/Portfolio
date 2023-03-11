@@ -5,6 +5,15 @@
 .headings{
     font-size: 1.7rem;
 }
+.Port4 img{
+    margin: 10px;
+    width: 300px;
+    margin-left: -200px;
+}
+.main h1{
+    font-size: 20px;
+    text-align: center;
+}
 
 /* About */
 #pic img{
@@ -23,6 +32,9 @@
 }
 
 /* Contact */
+#Contact{
+    width: auto;
+}
 .input{
     width: 80%;
 }
@@ -31,4 +43,8 @@
 }
 #send{
     width: 20%;
+}
+.form{
+    margin: auto;
+    width: auto;
 }
